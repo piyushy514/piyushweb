@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Starbucks Landing page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<section>
+		<div class="circle"></div>
+		<header>
+			<a href="#" class="Logo"><img src="logo.png" width="100" height="100"></a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">What's New</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</header>
+		<div class="content">
+			<div class="textbox">
+				<h2>It's not just coffee <br>It's <span>Starbucks</span></h2>
+				<p>Since 1971, it always has been and will always be about quality. We’re passionate about ethically sourcing only the finest Arabica coffee beans and roasting them with great care. Our passion for coffee is rivaled only by our love of sharing it.</p>
+
+				<a href="#">Learn More</a>
+				</div>
+			<div class="imgbox">
+				<img src="img1.png" class="Starbucks">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li><img src="thumb1.png" onclick="imgslider('img1.png)"></li>
+			<li><img src="thumb2.png" onclick="imgslider('img2.png)"></li>
+			<li><img src="thumb3.png" onclick="imgslider('img3.png)"></li>
+			</ul>
+			<ul class="sci">
+		    <li><a href="#"><img src="facebook.png" width="50" height="50"></a></li>
+		    <li><a href="#"><img src="instagram.png" width="50" height="50"></a></li>
+		    <li><a href="#"><img src="twitter.png" width="50" height="50"></a></li>
+			</ul>
+			<script type="text/javascript">
+				function imgslider(anything){
+					document.queryselector('.Starbucks').src = anything;
+				}
+			</script>
+	</section>
+
+
+
+</body>
+</html>
